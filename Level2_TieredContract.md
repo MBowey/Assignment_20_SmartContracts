@@ -1,6 +1,6 @@
 # Level 2: The `TieredProfitSplitter` Contract
 
-The  `TieredProfitSplitter` contract when executed will distribute different percentages of deposited `Ether` to employees at different tiers/levels. In this contract, rather than splitting the profits between Associate-level employees, the profits are different percentages for different tiers of employees (CEO, CTO, and the Associate). For example, the CEO gets paid 60%, CTO 25%, and Associate gets 15%.
+The  `TieredProfitSplitter` contract when executed will distribute different percentages of deposited `Ether` to employees at different tiers/levels. In this contract, rather than splitting the profits between Associate-level employees, the profits are different percentages for different tiers of employees (CEO, CTO, and the Associate). For example, the CEO gets paid 60%, CTO 25%, and CFO gets 15%.
 
 The steps are similar to our Level 1 contract in terms of defining our employee variables, adding a constructor, contract balance function, etc. The main changes come within our `deposit` function:
 
@@ -53,7 +53,7 @@ Employee One (CEO) Address: `0x6d1DA4e220D85Dd59B0CDd00f6F4FcCDDa706b24`
 
 Employee Two (CTO) Address: `0x36f29C56405bB27029FE3aa35512252AF20Bf1D0`
 
-Employee Three (Associate) Address: `0xa3d99926025008A71a1518E3d72fC15647bdF598`
+Employee Three (CFO) Address: `0xa3d99926025008A71a1518E3d72fC15647bdF598`
 
 
 ![L2 Initial Balance](L2_Screenshots/L2_InitialBalance.png)
@@ -72,7 +72,7 @@ Employee One (CEO) Balance: `103 ETH` to `109 ETH`              (`10ETH * 60% = 
 
 Employee Two (CTO) Balance: `103 ETH` to `105.5 ETH`            (`10ETH * 25% = 2.5ETH`)
 
-Employee Three (Associate) Balance: `103 ETH` to `104.5 ETH`    (`10ETH * 15% = 1.5ETH`)
+Employee Three (CFO) Balance: `103 ETH` to `104.5 ETH`    (`10ETH * 15% = 1.5ETH`)
 
 
 ![L2 Final Balance](L2_Screenshots/L2_FinalBalance.png)
