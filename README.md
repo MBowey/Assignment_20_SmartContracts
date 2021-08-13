@@ -31,8 +31,8 @@ While developing and testing the contract, use the [Ganache](https://www.truffle
 
 Additional README files have been included in the REPO that outline how to deploy and execute each contract. Various screenshots of successful transactions have also been included in these README files. 
 
-* [Associate Profit Splitter](Level1_AssociateContract.sol)
+* [Associate Profit Splitter](Level1_AssociateContract.md)
 
-* [Tiered Profit Splitter](Level2_TieredContract.sol)
+* [Tiered Profit Splitter](Level2_TieredContract.md)
 
-* [Deferred Equity Plan](Level3_DeferredEquityContract.sol)
+* [Deferred Equity Plan](Level3_DeferredEquityContract.md)
