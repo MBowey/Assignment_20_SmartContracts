@@ -8,7 +8,7 @@ The objective of this assignment was to create three different smart contracts r
 
 * Level 1: Pay the Associate-level employees equally by dividing the profits into three.
 
-* Level 2: Distribute profits to different tiers of employees (CEO, CTO & Associate).
+* Level 2: Distribute profits to different tiers of employees (CEO, CTO & CFO).
 
 * Level 3: Distribute company shares for employees in a "deferred equity incentive plan" automatically.
 
