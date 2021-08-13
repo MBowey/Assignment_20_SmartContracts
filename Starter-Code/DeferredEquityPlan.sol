@@ -9,17 +9,26 @@ contract DeferredEquityPlan {
 
     // @TODO: Set the total shares and annual distribution
     // Your code here!
+    uint total_shares = 1000;
+    uint annual_distribution = 250;
+    
 
     uint start_time = now; // permanently store the time this contract was initialized
+    uint fakenow = now;
 
     // @TODO: Set the `unlock_time` to be 365 days from now
     // Your code here!
+    uint unlock_time = now + 356;
 
     uint public distributed_shares; // starts at 0
 
     constructor(address payable _employee) public {
         human_resources = msg.sender;
         employee = _employee;
+    }
+    
+    function fastforward() public {
+        fakenow += 100 days;
     }
 
     function distribute() public {
@@ -30,13 +39,20 @@ contract DeferredEquityPlan {
         // 1: `unlock_time` is less than or equal to `now`
         // 2: `distributed_shares` is less than the `total_shares`
         // Your code here!
+        
+        require(unlock_time <= fakenow);
+        require(distributed_shares <= total_shares);
 
         // @TODO: Add 365 days to the `unlock_time`
         // Your code here!
+        unlock_time = fakenow + 365;
 
         // @TODO: Calculate the shares distributed by using the function (now - start_time) / 365 days * the annual distribution
         // Make sure to include the parenthesis around (now - start_time) to get accurate results!
         // Your code here!
+        distributed_shares = ((fakenow - start_time / 365) * annual_distribution);
+        if(fakenow - start_time < 365) {distributed_shares = 0;}
+        if(fakenow - start_time > 365) {distributed_shares = 250;}
 
         // double check in case the employee does not cash out until after 5+ years
         if (distributed_shares > 1000) {
