@@ -15,9 +15,7 @@ The objective of this assignment was to create three different smart contracts r
 
 ### Files and Getting Started
 
-Navigate to the [Remix IDE](https://remix.ethereum.org) and create new solidity files for each contract.
-
-Attached are links to the code for each smart contract.  
+Navigate to the [Remix IDE](https://remix.ethereum.org) and create new solidity files for each contract. Below are links to the code for each smart contract.  
 
 * [`AssociateProfitSplitter.sol`](Starter-Code/AssociateProfitSplitter.sol) -- Level 1 Code.
 
@@ -27,7 +25,7 @@ Attached are links to the code for each smart contract.
 
 While developing and testing the contract, use the [Ganache](https://www.trufflesuite.com/ganache) development chain and point MetaMask to `localhost:8545`, or replace the port with what you have set in your workspace.
 
-Additional README files have been included in the REPO that outline how to deploy and execute each contract. Various screenshots of successful transactions have also been included in these README files. 
+The links below outline how to deploy each contract and also further clarity on the functions included. Various screenshots of successful transactions can also be found here. 
 
 * [Associate Profit Splitter](Level1_AssociateContract.md)
 
