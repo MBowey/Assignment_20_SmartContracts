@@ -1,6 +1,6 @@
 # Level 2: The `TieredProfitSplitter` Contract
 
-The  `TieredProfitSplitter` contract when executed will distribute different percentages of deposited `Ether` to employees at different tiers/levels. In this contract, rather than splitting the profits between Associate-level employees, the profits are different percentages for different tiers of employees (CEO, CTO, and the Associate). For example, the CEO gets paid 60%, CTO 25%, and CFO gets 15%.
+The  `TieredProfitSplitter` contract when executed will distribute different percentages of deposited `Ether` to employees at different tiers/levels. In this contract, rather than splitting the profits between Associate-level employees, the profits are different percentages for different tiers of employees (CEO, CTO, and CFO). For example, the CEO gets paid 60%, CTO 25%, and CFO gets 15%.
 
 The steps are similar to our Level 1 contract in terms of defining our employee variables, adding a constructor, contract balance function, etc. The main changes come within our `deposit` function:
 
