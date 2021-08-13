@@ -4,7 +4,7 @@ pragma solidity ^0.5.0;
 contract TieredProfitSplitter {
     address payable employee_one; // ceo
     address payable employee_two; // cto
-    address payable employee_three; // bob
+    address payable employee_three; // cfo
 
     constructor(address payable _one, address payable _two, address payable _three) public {
         employee_one = _one;
