@@ -89,7 +89,7 @@ We can then click `fastforward` to speed up time and test the second round of sh
 
 ![Distribution](L3_Screenshots/L3_FastForward.png)
 
-##Etherscan Transaction Address:
+## Etherscan Transaction Address:
 
 Contract Deployment - TX Hash: [0xc0f21f174bae47894d66a4c7b452216cbb58940363179126347b9dd5cd1dfb98](https://ropsten.etherscan.io/tx/0xc0f21f174bae47894d66a4c7b452216cbb58940363179126347b9dd5cd1dfb98)
 
