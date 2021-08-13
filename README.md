@@ -12,7 +12,10 @@ The objective of this assignment was to create three different smart contracts r
 
 * Level 3: Distribute company shares for employees in a "deferred equity incentive plan" automatically.
 
-### Files
+
+### Files and Getting Started
+
+Navigate to the [Remix IDE](https://remix.ethereum.org) and create new solidity files for each contract.
 
 Attached are links to the code for each smart contract.  
 
@@ -21,11 +24,6 @@ Attached are links to the code for each smart contract.
 * [`TieredProfitSplitter.sol`](Starter-Code/TieredProfitSplitter.sol) -- Level 2 Code.
 
 * [`DeferredEquityPlan.sol`](Starter-Code/DeferredEquityPlan.sol) -- Level 3 Code.
-
-
-### Starting the project/Instructions
-
-Navigate to the [Remix IDE](https://remix.ethereum.org) and create a new contract called `AssociateProfitSplitter.sol`.
 
 While developing and testing the contract, use the [Ganache](https://www.trufflesuite.com/ganache) development chain and point MetaMask to `localhost:8545`, or replace the port with what you have set in your workspace.
 
